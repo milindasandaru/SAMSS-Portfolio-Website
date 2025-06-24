@@ -30,7 +30,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://your-portfolio-url.netlify.app)
+[View Live Portfolio]([https://your-portfolio-url.netlify.app](https://samssenrath21.netlify.app/))
 
 ## 📱 Sections
 
