@@ -28,7 +28,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
   - Google Fonts (Inter font family)
   - CSS Custom Properties (Theme system)
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Live Portfolio](https://samssenrath21.netlify.app/)
 
