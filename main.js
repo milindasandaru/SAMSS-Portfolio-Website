@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const projects = [
         {
             category: "Web Design",
-            title: "Dynamic",
+            title: "LA OLUXE",
             description: "A responsive website design with modern aesthetics and user-friendly interface.",
             features: [
                 "Responsive Layout Design",
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             category: "UI/UX Design",
-            title: "Submarine",
+            title: "Wallet",
             description: "Creative UI/UX design focused on user experience and usability.",
             features: [
                 "User Research",
@@ -122,10 +122,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 "Usability Testing"
             ],
             links: [
-                { text: "Live Demo", url: "#", icon: "ri-global-line" },
-                { text: "Source Code", url: "#", icon: "ri-github-fill" }
+                { text: "Live Demo", url: "https://www.figma.com/design/ct16Stq7rdYkHjqVFUSwvO/Wallet-UI-Project?node-id=83-533&t=PPADoAjscfZ6bL6g-1", icon: "ri-global-line" },
+                { text: "Source Code", url: "https://github.com/milindasandaru/Wallet", icon: "ri-github-fill" }
             ],
-            image: "asset/portfolio-img-02.jpg"
+            image: "asset/ui_ux.png"
         },
         // Add other projects similarly...
     ];
