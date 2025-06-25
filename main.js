@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const projects = [
         {
             category: "Web Design",
-            title: "LA OLUXE",
+            title: "AutoFiks",
             description: "A responsive website design with modern aesthetics and user-friendly interface.",
             features: [
                 "Responsive Layout Design",
@@ -106,8 +106,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 "Design Mockups (Figma, Adobe XD)"
             ],
             links: [
-                { text: "Live Demo", url: "#", icon: "ri-global-line" },
-                { text: "Source Code", url: "#", icon: "ri-github-fill" }
+                { text: "Live Demo", url: "https://www.figma.com/design/djmzPpItXSWsZoeqAJBYsv/AutoFiks-Web-app-project-?node-id=0-1&t=PgwbDd01UCJmTFrJ-1", icon: "ri-global-line" },
+                { text: "Source Code", url: "https://github.com/milindasandaru/AutoFiks-ITP-Project", icon: "ri-github-fill" }
             ],
             image: "asset/portfolio-img-01.jpg"
         },
