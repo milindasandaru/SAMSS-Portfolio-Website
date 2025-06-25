@@ -2301,7 +2301,256 @@ textarea {
     }
 }
 
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Large Desktop */
+@media screen and (max-width: 1400px) {
+    .samss-container {
+        max-width: 1100px;
+        padding: 0 20px;
+    }
+
+    .home-container .samss-wrapper {
+        max-width: 900px;
+    }
+}
+
+/* Desktop */
+@media screen and (max-width: 1200px) {
+    .samss-container {
+        max-width: 960px;
+        padding: 0 20px;
+    }
+
+    /* Adjust font sizes */
+    :root {
+        --h1-font-size: 2.5rem;
+        --h2-font-size: 2rem;
+        --h3-font-size: 1.75rem;
+        --h4-font-size: 1.25rem;
+    }
+
+    /* Home section adjustments */
+    .home-social {
+        left: -10px;
+    }
+
+    .avatar-img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1024px) {
+    .samss-container {
+        padding: 0 30px;
+    }
+
+    /* Header adjustments */
+    .samss-header {
+        padding: 20px 0;
+    }
+
+    .samss-logo a {
+        font-size: 2.2rem;
+    }
+
+    /* Home section - stack social media */
+    .home-container .samss-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .home-social {
+        position: static;
+        transform: none;
+        flex-direction: row;
+        justify-content: center;
+        order: 2;
+    }
+
+    .home-social span {
+        writing-mode: initial;
+        text-orientation: initial;
+    }
+
+    .social-line {
+        width: 60px;
+        height: 2px;
+    }
+
+    .social-icons {
+        flex-direction: row;
+    }
+
+    /* Professional cards */
+    .pro-list {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+
+    /* Resume tabs */
+    .resume-tabs {
+        gap: 10px;
+    }
+
+    /* Service cards */
+    .service-list {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    /* Portfolio grid */
+    .portfolio-list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    /* Contact section */
+    .contact-container {
+        gap: 30px;
+    }
+}
+
+/* Tablet Portrait */
 @media screen and (max-width: 768px) {
+    .samss-container {
+        padding: 0 20px;
+    }
+
+    /* Font size adjustments */
+    :root {
+        --h1-font-size: 2.2rem;
+        --h2-font-size: 1.8rem;
+        --h3-font-size: 1.5rem;
+        --h4-font-size: 1.15rem;
+        --xlarge-font-size: 1.3rem;
+        --large-font-size: 1.15rem;
+        --medium-font-size: 1.1rem;
+        --base-font-size: 1rem;
+        --small-font-size: 0.95rem;
+        --tiny-font-size: 0.85rem;
+    }
+
+    /* Header */
+    .samss-header .inner {
+        padding: 0 20px;
+    }
+
+    .header-btns {
+        gap: 15px;
+    }
+
+    .samss-main-btn {
+        padding: 12px 24px;
+        display: none;
+        /* Hide on mobile */
+    }
+
+    .lets-talk-icon {
+        display: flex;
+        /* Show icon instead */
+    }
+
+    /* Bottom navigation - show menu button */
+    .menu-show-btn {
+        display: flex;
+    }
+
+    .bottom-nav {
+        bottom: -100px;
+        transition: bottom 0.3s ease;
+    }
+
+    .bottom-nav.show {
+        bottom: 20px;
+    }
+
+    .bottom-nav .menu {
+        padding: 12px 20px;
+        column-gap: 10px;
+    }
+
+    .bottom-nav .menu li a {
+        padding: 6px 8px;
+        min-width: 50px;
+    }
+
+    .bottom-nav .menu li a svg {
+        width: 24px;
+        height: 24px;
+        padding: 5px;
+    }
+
+    /* Home section */
+    .avatar-img {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 25px;
+    }
+
+    .avatar-info {
+        gap: 20px;
+    }
+
+    .text-content {
+        gap: 8px;
+    }
+
+    /* About section */
+    .pro-list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .pro-card {
+        padding: 18px 15px;
+    }
+
+    .about-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Resume section */
+    .resume-tabs {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .resume-tabs .tab-btn {
+        width: 100%;
+        max-width: 200px;
+        justify-content: center;
+    }
+
+    .resume-content {
+        padding: 0 10px;
+    }
+
+    /* Service section */
+    .service-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    /* Portfolio section */
+    .portfolio-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Contact section */
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .contact-form-container {
+        padding: 25px 20px;
+        max-width: 100%;
+    }
+
+    /* Footer */
     .footer-content {
         grid-template-columns: 1fr 1fr;
         gap: 25px;
@@ -2309,255 +2558,19 @@ textarea {
 
     .footer-brand {
         grid-column: 1 / -1;
+        text-align: center;
         max-width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
     }
 
-    .footer-bottom {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .samss-footer {
-        padding: 30px 0 15px;
-    }
-
-    .footer-content {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        text-align: center;
-    }
-
-    .footer-brand {
-        grid-column: auto;
-    }
-
-    .social-links {
-        justify-content: center;
-    }
-
-    .footer-links h4::after,
-    .footer-contact h4::after,
-    .footer-social h4::after {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .contact-container {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .contact-details {
-        gap: 20px;
-    }
-
-    .contact-item {
-        padding: 12px;
-    }
-
-    .contact-icon {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-    }
-
-    .contact-form-container {
-        padding: 20px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .contact-item {
-        flex-direction: column;
-        text-align: center;
-        gap: 12px;
-    }
-
-    .contact-social-links {
-        justify-content: center;
-    }
-
-    .contact-form-container h2 {
-        font-size: var(--h3-font-size);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .portfolio-container {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 15px;
-    }
-
-    .portfolio-card {
-        max-width: 200px;
-    }
-
-    .portfolio-card .card-img {
-        height: 140px;
-    }
-
-    .portfolio-tabs {
-        margin-bottom: 40px;
-    }
-
-    .portfolio-tabs .tab-btn {
-        padding: 6px 12px;
-        font-size: var(--tiny-font-size);
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .portfolio-container {
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 12px;
-    }
-
-    .portfolio-card {
-        max-width: 180px;
-    }
-
-    .portfolio-card .card-img {
-        height: 120px;
-    }
-
-    .portfolio-card .card-info {
-        padding: 10px 12px;
-    }
-
-    .portfolio-card .card-info h4 {
-        font-size: var(--small-font-size);
-    }
-
-    .portfolio-tabs {
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 30px;
-    }
-
-    .portfolio-tabs .tab-btn {
-        width: 100%;
-        max-width: 200px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .service-container {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 15px;
-    }
-
-    .service-card {
-        width: 180px;
-        height: 160px;
-        padding: 15px;
-    }
-
-    .service-icon {
-        font-size: 20px;
-    }
-
-    .service-info h4 {
-        font-size: var(--small-font-size);
-    }
-
-    .service-modal {
-        margin: 15px;
-        padding: 20px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .service-container {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-
-    .service-card {
-        width: 100%;
-        max-width: 250px;
-        height: 140px;
-    }
-
-    .service-modal {
-        width: 95%;
-        margin: 10px;
-        padding: 15px;
-    }
-
+    /* Modal adjustments */
     .modal-content {
-        max-height: 300px;
+        margin: 20px;
+        max-height: calc(100vh - 40px);
     }
 }
 
-@media screen and (max-width: 768px) {
-    .resume-timeline {
-        max-width: 100%;
-    }
-
-    .resume-line {
-        left: 25px;
-    }
-
-    .resume-items .item {
-        width: 100%;
-        left: 0 !important;
-        padding-left: 50px !important;
-        padding-right: 0 !important;
-        text-align: left !important;
-    }
-
-    .item-left .item-dot,
-    .item-right .item-dot {
-        left: 20px !important;
-        right: auto !important;
-    }
-
-    .item-left .item-content {
-        flex-direction: row !important;
-    }
-
-    .skills-grid {
-        grid-template-columns: 1fr;
-        gap: 12px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .resume-tabs {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .resume-tabs .tab-btn {
-        width: 100%;
-        max-width: 200px;
-        padding: 6px 12px;
-    }
-
-    .item-content {
-        padding: 10px;
-        gap: 8px;
-    }
-
-    .item-icon {
-        width: 28px;
-        height: 28px;
-        font-size: 12px;
-    }
-
-    .item-info h5 {
-        font-size: var(--small-font-size);
-    }
-}
-
-@media screen and (max-width: 768px) {
+/* Mobile Landscape */
+@media screen and (max-width: 640px) {
     .samss-sub-container {
         padding-top: 3em;
         padding-bottom: 3em;
@@ -2567,123 +2580,241 @@ textarea {
         margin-bottom: 40px;
     }
 
-    .about-info .iam {
-        font-size: var(--h2-font-size);
-    }
-
-    .pro-list {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin: 30px 0;
-    }
-
-    .pro-card {
-        padding: 20px 15px;
-    }
-
-    .about-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .samss-main-btn {
-        width: 100%;
-        max-width: 250px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .about-info .about-description {
-        font-size: var(--small-font-size);
-    }
-
-    .pro-icon {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .home-social {
-        display: none;
-        /* Hide on mobile for cleaner look */
-    }
-
-    .avatar-img {
-        width: 150px;
-        height: 150px;
-        margin-bottom: 25px;
-    }
-
-    .my-name {
-        font-size: var(--h1-font-size);
-    }
-
-    .what-i-do {
-        font-size: var(--normal-font-size);
-    }
-}
-
-@media screen and (max-width: 480px) {
+    /* Home adjustments for landscape */
     .home-container {
-        padding: 0 20px;
+        padding: 20px 0;
     }
 
     .avatar-img {
         width: 120px;
         height: 120px;
     }
-
-    .description {
-        font-size: var(--small-font-size);
-    }
 }
 
-@media screen and (max-width: 768px) {
+/* Mobile Portrait */
+@media screen and (max-width: 480px) {
+    .samss-container {
+        padding: 0 15px;
+    }
+
+    /* Font size further reduction */
+    :root {
+        --h1-font-size: 2rem;
+        --h2-font-size: 1.6rem;
+        --h3-font-size: 1.35rem;
+        --h4-font-size: 1.1rem;
+    }
+
+    /* Header */
+    .samss-logo a {
+        font-size: 2rem;
+    }
+
+    .header-btns {
+        gap: 10px;
+    }
+
+    .theme-btn svg {
+        font-size: 24px;
+    }
+
+    /* Bottom navigation */
     .bottom-nav .menu {
-        column-gap: 15px;
-        padding: 8px 20px;
+        padding: 8px 15px;
+        column-gap: 8px;
     }
 
     .bottom-nav .menu li a {
-        min-width: 50px;
-        padding: 6px 8px;
+        padding: 5px 6px;
+        min-width: 45px;
     }
 
     .bottom-nav .menu li a svg {
-        width: 28px;
-        height: 28px;
-        padding: 6px;
-    }
-
-    .bottom-nav .menu li a span {
-        font-size: 11px;
-        padding: 4px 8px;
-        top: -40px;
-    }
-
-    .menu-show-btn {
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .bottom-nav .menu {
-        column-gap: 10px;
-        padding: 6px 15px;
-    }
-
-    .bottom-nav .menu li a svg {
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
         padding: 4px;
     }
 
-    /* Keep tooltips but make them smaller */
-    .bottom-nav .menu li a span {
-        font-size: 10px;
-        padding: 3px 6px;
-        top: -35px;
+    /* Home section */
+    .home-container {
+        min-height: 100vh;
+        padding: 80px 0 120px;
+    }
+
+    .avatar-img {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        max-width: 100%;
+    }
+
+    /* Social media - horizontal layout */
+    .home-social {
+        margin-top: 20px;
+    }
+
+    .social-icons li a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    /* Professional cards */
+    .pro-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 12px;
+    }
+
+    .pro-icon {
+        margin-bottom: 10px;
+    }
+
+    /* Resume tabs */
+    .resume-tabs .tab-btn {
+        padding: 10px 12px;
+        font-size: var(--small-font-size);
+    }
+
+    /* Contact form */
+    .contact-form-container {
+        padding: 20px 15px;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        padding: 12px 15px;
+    }
+
+    .submit-btn {
+        padding: 12px 20px;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-links h4::after,
+    .footer-contact h4::after,
+    .footer-social h4::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* Modal full screen on mobile */
+    .modal-content {
+        margin: 10px;
+        max-height: calc(100vh - 20px);
+        border-radius: 8px;
+    }
+
+    /* Custom cursor - disable on touch devices */
+    .cursor {
+        display: none;
+    }
+
+    body,
+    a,
+    button,
+    input,
+    textarea {
+        cursor: auto !important;
+    }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 360px) {
+    .samss-container {
+        padding: 0 12px;
+    }
+
+    /* Further font size reduction */
+    :root {
+        --h2-font-size: 1.4rem;
+        --h3-font-size: 1.2rem;
+        --h4-font-size: 1rem;
+    }
+
+    .samss-logo a {
+        font-size: 1.8rem;
+    }
+
+    .avatar-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .pro-card {
+        padding: 12px 10px;
+    }
+
+    .contact-form-container {
+        padding: 18px 12px;
+    }
+
+    .bottom-nav .menu {
+        padding: 6px 12px;
+        column-gap: 6px;
+    }
+
+    .menu-show-btn {
+        width: 45px;
+        height: 45px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+/* Landscape orientation adjustments */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .home-container {
+        min-height: auto;
+        padding: 40px 0 80px;
+    }
+
+    .avatar-img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .home-social {
+        margin-top: 15px;
+    }
+
+    .social-icons li a {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .samss-sub-container {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+/* High DPI displays */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi) {
+    .avatar-img img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
     }
 }
