@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 
 <img src="./asset/logo.png" alt="Logo" width="120" />
 
-## 🌟 Features
+## Features
 
 - **Responsive Design** - Optimized for all devices (mobile, tablet, desktop)
 - **Dark/Light Theme Toggle** - User preference with smooth transitions
@@ -15,7 +15,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 - **Smooth Animations** - CSS animations and transitions throughout
 - **Modern UI/UX** - Clean, professional design with attention to detail
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend:**
   - HTML5 (Semantic markup)
@@ -33,7 +33,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 [View Live Portfolio](https://samssenrath21.netlify.app/)
 
 
-## 📱 Sections
+## Sections
 
 1. **Home** - Hero section with introduction and call-to-action
 2. **About** - Personal information, skills, and background
@@ -42,7 +42,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 5. **Portfolio** - Showcase of projects with live demos
 6. **Contact** - Contact form and social media links
 
-## 🎨 Key Highlights
+## Key Highlights
 
 ### Custom Cursor
 - Smooth following cursor with lag effect
@@ -64,7 +64,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 - Form validation and user feedback
 - Success/error state handling
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
 
@@ -76,11 +76,11 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 - Sign up at [EmailJS](https://www.emailjs.com/)
 - Replace the service ID, template ID, and public key in `main.js`
 
-## 📁 Project Structure
+## Project Structure
 
 ![image](https://github.com/user-attachments/assets/22fe5a01-61e9-4eea-9ede-804d791d84b5)
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - **Frontend Development** - HTML5, CSS3, JavaScript
 - **Responsive Design** - Mobile-first approach
@@ -89,21 +89,21 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 - **Cross-browser Compatibility** - Works on all modern browsers
 - **Git Version Control** - Proper commit history and branching
 
-## 📊 Performance
+## Performance
 
 - **Lighthouse Score:** 95+ (Performance, Accessibility, Best Practices, SEO)
 - **Mobile Responsive:** ✅
 - **Cross-browser Compatible:** ✅
 - **Fast Loading:** < 2 seconds load time
 
-## 🤝 Connect With Me
+## Connect With Me
 
 - **Email:** milindasandaruwan21@gmail.com
 - **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
 - **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
 - **Portfolio:** [Live Website](https://your-portfolio-url.netlify.app)
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Add blog section
 - [ ] Implement project filtering
@@ -111,11 +111,11 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 - [ ] Include testimonials section
 - [ ] Add progressive web app features
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Icons by [Remix Icons](https://remixicon.com/)
 - Fonts by [Google Fonts](https://fonts.google.com/)
