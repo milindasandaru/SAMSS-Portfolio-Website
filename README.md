@@ -101,7 +101,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 - **Email:** milindasandaruwan21@gmail.com
 - **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/samssenarath/)
 - **GitHub:** [My GitHub Profile](https://github.com/milindasandaru)
-- **Portfolio:** [Live Website](https://your-portfolio-url.netlify.app)
+- **Portfolio:** [Live Website](https://samssenrath.netlify.app/)
 
 ## Future Enhancements
 
