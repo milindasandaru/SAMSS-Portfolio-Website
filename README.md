@@ -30,7 +30,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 
 ## Live Demo
 
-[View Live Portfolio](https://samssenrath21.netlify.app/)
+[View Live Portfolio](https://samssenrath.netlify.app/)
 
 
 ## Sections
@@ -99,9 +99,9 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 ## Connect With Me
 
 - **Email:** milindasandaruwan21@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
-- **Portfolio:** [Live Website](https://your-portfolio-url.netlify.app)
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/samssenarath/)
+- **GitHub:** [My GitHub Profile](https://github.com/milindasandaru)
+- **Portfolio:** [Live Website](https://samssenrath.netlify.app/)
 
 ## Future Enhancements
 
